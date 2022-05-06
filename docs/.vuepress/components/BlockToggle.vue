@@ -162,8 +162,8 @@ export default {
 
 /* 代码块内容 */
 div[class*="language-"].line-numbers-mode pre {
-  margin: 20px 0 1rem 0;
-  padding-bottom: 0.4rem;
+  margin: 20px 0 0.85rem 0;
+  padding-bottom: 0.3rem;
 }
 /* 代码块的行数 */
 div[class*="language-"].line-numbers-mode .line-numbers-wrapper,

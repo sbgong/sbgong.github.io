@@ -81,6 +81,6 @@ module.exports = {
   // 页脚信息
   footer: {
     createYear: 2022, // 博客创建年份
-    copyrightInfo: "SBGONG | MIT License", // 博客版权信息，支持a标签
+    copyrightInfo: "SBGONG", // 博客版权信息，支持a标签
   },
 };

@@ -73,6 +73,7 @@ div[class*="language-"]
   .token.operator, .theme-mode-light .token.entity, .theme-mode-light .token.url, .theme-mode-light .language-css .token.string, .theme-mode-light .style .token.string
     background: rgba(255,255,255,0.0)
   
+  // 代码组
   .code-group-nav
     background: #c2def3
     .code-group-nav-tab:hover
@@ -84,6 +85,27 @@ div[class*="language-"]
       background: radial-gradient(12px at left top, transparent 50%, #ecf4fa 50%)
     .code-group-nav-tab.active:after
       background: radial-gradient(12px at right top, transparent 50%, #ecf4fa 50%)
+
+  // 自定义容器
+  .custom-block.info,
+  .custom-block.note,
+  .custom-block.tip,
+  .custom-block.warning,
+  .custom-block.danger
+    .custom-block-title
+      position: relative
+      padding-left: 0.5rem
+      font-weight: 600
+      line-height: 1.25
+      color: #4d3800
+    .custom-block-title::before
+      background-image unset
+    p
+      margin: 0.5rem 0
+    ol
+      margin: 0.5rem 0
+    ul
+      margin: 0.5rem 0
 
   // `` 包裹的背景色
   .theme-vdoing-content
@@ -123,6 +145,7 @@ div[class*="language-"]
     .line-numbers-mode::after  // 代码块的行数和内容分割线颜色
       border-right 1px solid rgba(0, 0, 0, 0.66)
   
+  // 代码组
   .code-group-nav
     background: #191d22
     .code-group-nav-tab
@@ -136,7 +159,6 @@ div[class*="language-"]
       background: radial-gradient(12px at left top, transparent 50%, #282c34 50%)
     .code-group-nav-tab.active:after
       background: radial-gradient(12px at right top, transparent 50%, #282c34 50%)
-
 
   // `` 包裹的背景色
   .theme-vdoing-content
@@ -178,21 +200,18 @@ div[class*="language-"]
     color #a8a8a8
     .custom-block-title
       color #eef9fd
-  .custom-block.info
+      position: relative
+      padding-left: 0.5rem
+      font-weight: 600
+      line-height: 1.25
     .custom-block-title::before
-      background-image: url(/assets/img/info-dark.a1decb69.svg)
-  .custom-block.note
-    .custom-block-title::before
-      background-image: url(/assets/img/note-dark.8668720f.svg)
-  .custom-block.tip
-    .custom-block-title::before
-        background-image: url(/assets/img/tip-dark.0d0028db.svg)
-  .custom-block.warning
-    .custom-block-title::before
-        background-image: url(/assets/img/warning-dark.b995cb45.svg)
-  .custom-block.danger
-    .custom-block-title::before
-        background-image: url(/assets/img/danger-dark.86c63c40.svg)
+      background-image unset
+    p
+      margin: 0.5rem 0
+    ol
+      margin: 0.5rem 0
+    ul
+      margin: 0.5rem 0
 
   // 鼠标悬停、a 标签颜色，主题默认颜色 #11a8cd
   .nav-item > a:not(.external):hover,

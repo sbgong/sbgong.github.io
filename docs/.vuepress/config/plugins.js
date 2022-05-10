@@ -41,7 +41,6 @@ module.exports = [
   [
     "md-enhance", // markdown增强
     {
-      container: true,
       codegroup: true,
       footnote: true,
       mark: true,

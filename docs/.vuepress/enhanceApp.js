@@ -1,6 +1,6 @@
-import LastReadingPopup from "./components/LastReadingPopup.vue";
 import ElementUI from 'element-ui/lib/index';
 import 'element-ui/lib/theme-chalk/index.css';
+import LastReadingPopup from "./components/LastReadingPopup.vue";
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数

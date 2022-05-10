@@ -1,5 +1,18 @@
 @require '~vuepress-plugin-tabs/dist/themes/default.styl'
 
+// 全文搜索框
+.suggestions
+  overflow: auto
+  max-height: calc(100vh - 6rem)
+  @media (max-width: 719px) {
+    width: 90vw;
+    min-width: 90vw!important;
+    margin-right: -20px;
+  }
+  .highlight
+    color: $accentColor
+    font-weight: bold
+
 // elment-ui 表格
 .el-table table
   margin 0

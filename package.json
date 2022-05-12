@@ -20,8 +20,9 @@
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-md-enhance": "^1.28.5",
-    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-meting": "^0.3.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.6",
     "yamljs": "^0.3.0"

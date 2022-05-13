@@ -162,13 +162,13 @@ export default {
 
 /* 代码块内容 */
 div[class*="language-"].line-numbers-mode pre {
-  margin: 20px 0 0.85rem 0;
+  margin: 1rem 0 0.85rem 0;
   padding-bottom: 0.3rem;
 }
 /* 代码块的行数 */
 div[class*="language-"].line-numbers-mode .line-numbers-wrapper,
 .highlight-lines {
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 div[class*="language-"].line-numbers-mode .line-numbers-wrapper .line-number{

@@ -62,7 +62,7 @@ module.exports = [
         // 不配置该项的话不会出现全局播放器
         server: "netease", // 音乐平台，可选值： "netease" | "tencent" | "kuwo" | "kugou" | "baidu" | "xiami"，netease 是网易云
         type: "playlist", // 资源类型（播放列表、单曲、专辑等），可选值： "song" | "album" | "artist" | "playlist"
-        mid: "2555412439", // 资源 ID
+        mid: "7432777420", // 资源 ID
         // auto: 'https://music.163.com/playlist?id=2555412439',  // 资源 url，填写后可通过资源 url 自动解析资源平台、类型、ID，上述三个选项将被覆盖（本参数仅支持 netease、tencent、xiami 三平台）
       },
       aplayer: {

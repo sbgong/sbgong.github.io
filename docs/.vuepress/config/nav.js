@@ -1,8 +1,7 @@
 const index = require("../nav/index");
 const javaframe = require("../nav/javaframe");
 const javabase = require("../nav/javabase");
-const frontframe = require("../nav/frontframe");
-const frontbase = require("../nav/frontbase");
+const frontend = require("../nav/frontend");
 const server = require("../nav/server");
 const database = require("../nav/database");
 const tools = require("../nav/tools");
@@ -13,8 +12,7 @@ module.exports = [
   index,
   javaframe,
   javabase,
-  frontframe,
-  frontbase,
+  frontend,
   server,
   database,
   tools,

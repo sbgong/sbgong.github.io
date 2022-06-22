@@ -48,8 +48,6 @@ module.exports = [
       mark: true,
       sub: true,
       sup: true,
-      flowchart: true,
-      mermaid: true,
     },
   ],
   // 音乐插件，官网：https://moefyit.github.io/moefy-vuepress/packages/meting.html

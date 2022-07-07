@@ -4,5 +4,6 @@ module.exports = {
   items: [
     { text: "Linux", link: "/pages/9d5c19/" },
     { text: "Docker", link: "/pages/ada0a7/" },
+    { text: "Nginx", link: "/pages/d9587b/" },
   ],
 };

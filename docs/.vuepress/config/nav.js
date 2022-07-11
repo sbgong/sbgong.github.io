@@ -7,6 +7,7 @@ const database = require("../nav/database");
 const tools = require("../nav/tools");
 const project = require("../nav/project");
 const skill = require("../nav/skill");
+const ui = require("../nav/ui");
 
 module.exports = [
   index,
@@ -18,4 +19,5 @@ module.exports = [
   tools,
   project,
   skill,
+  ui,
 ];

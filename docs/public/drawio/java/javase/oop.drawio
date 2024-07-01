@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2024-06-06T12:29:09.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="K6t_pmtHZKcJ5ysauitu" version="24.4.13" type="device">
+  <diagram name="new-student" id="BSo37oaoxjeaSA6AnMd-">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ood3mE_8JMTzE4csxDGE-1" value="栈（stack）" style="swimlane;fontFamily=OPPO Sans;fontSize=18;fillColor=#97D077;strokeColor=none;swimlaneFillColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=1;hachureGap=1;hachureAngle=-41;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-2" value="main 方法" style="swimlane;swimlaneFillColor=default;fontFamily=OPPO Sans;fontSize=18;dashed=1;" parent="ood3mE_8JMTzE4csxDGE-1" vertex="1">
+          <mxGeometry x="10" y="40" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-3" value="Student stu = 0x0001;" style="shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontFamily=OPPO Sans;points=[[1,0.5,0,0,0]];" parent="ood3mE_8JMTzE4csxDGE-2" vertex="1">
+          <mxGeometry x="15" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-4" value="堆（heap）" style="swimlane;fontFamily=OPPO Sans;fontSize=18;fillColor=#97D077;strokeColor=none;swimlaneFillColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=1;hachureGap=1;hachureAngle=-41;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-5" value="new Student()" style="swimlane;swimlaneFillColor=default;fontFamily=OPPO Sans;fontSize=18;dashed=1;" parent="ood3mE_8JMTzE4csxDGE-4" vertex="1">
+          <mxGeometry x="10" y="70" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-6" value="name" style="ellipse;fontFamily=OPPO Sans;fontSize=16;shadow=1;dashed=0;strokeColor=#33A64C;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=1;fillColor=none;shadowColor=#000000;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="15" y="45" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-7" value="age" style="ellipse;fontFamily=OPPO Sans;fontSize=16;shadow=1;dashed=0;strokeColor=#33A64C;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=1;fillColor=none;shadowColor=#000000;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="15" y="95" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-8" value="null" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;strokeColor=#808080;fontColor=#808080;shadow=1;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="85" y="45" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-9" value="stu1" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;strokeColor=#808080;fontColor=#808080;shadow=1;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="155" y="45" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-10" value="stu2" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;shadow=1;dashed=0;strokeColor=#33A64C;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=1;fillColor=none;shadowColor=#000000;shadowOffsetY=3;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="225" y="45" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-11" value="0" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;strokeColor=#808080;fontColor=#808080;shadow=1;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="85" y="95" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-12" value="18" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;strokeColor=#808080;fontColor=#808080;shadow=1;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="155" y="95" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-13" value="19" style="shape=step;perimeter=stepPerimeter;fixedSize=1;fontFamily=OPPO Sans;fontSize=16;rounded=1;shadow=1;dashed=0;strokeColor=#33A64C;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=1;fillColor=none;shadowColor=#000000;shadowOffsetY=3;" parent="ood3mE_8JMTzE4csxDGE-5" vertex="1">
+          <mxGeometry x="225" y="95" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-14" value="0x0001" style="shadow=0;dashed=0;shape=mxgraph.bootstrap.popover;fillColor=#97D077;strokeColor=none;dx=45;dy=5;rSize=5;verticalAlign=top;spacing=10;fontSize=14;spacingLeft=0;align=center;spacingTop=-10;fontColor=#FFFFFF;fontFamily=OPPO Sans;points=[[0,0,0,0,0],[0,0,0,0,12],[0,0,0,0,25],[0,0,0,45,30],[0,0,0,90,12],[0,0,0,90,25],[0.25,0,0,0,0],[0.25,0,0,0,25],[0.5,0,0,0,0],[0.75,0,0,0,0],[0.75,0,0,0,25],[1,0,0,0,0]];" parent="ood3mE_8JMTzE4csxDGE-4" vertex="1">
+          <mxGeometry x="10" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-15" value="this" style="shadow=0;dashed=0;shape=mxgraph.bootstrap.popover;fillColor=#97D077;strokeColor=none;dx=45;dy=5;rSize=5;verticalAlign=top;spacing=10;fontSize=14;spacingLeft=0;align=center;spacingTop=-10;fontColor=#FFFFFF;fontFamily=OPPO Sans;points=[[0,0,0,0,0],[0,0,0,0,12],[0,0,0,0,25],[0,0,0,45,30],[0,0,0,90,12],[0,0,0,90,25],[0.25,0,0,0,0],[0.25,0,0,0,25],[0.5,0,0,0,0],[0.75,0,0,0,0],[0.75,0,0,0,25],[1,0,0,0,0]];" parent="ood3mE_8JMTzE4csxDGE-4" vertex="1">
+          <mxGeometry x="240" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0;exitDx=90;exitDy=12;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=12;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;fontFamily=OPPO Sans;" parent="ood3mE_8JMTzE4csxDGE-4" source="ood3mE_8JMTzE4csxDGE-14" target="ood3mE_8JMTzE4csxDGE-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-17" value="方法区" style="swimlane;fontFamily=OPPO Sans;fontSize=18;fillColor=#97D077;strokeColor=none;swimlaneFillColor=#D5E8D4;sketch=1;curveFitting=1;jiggle=1;hachureGap=1;hachureAngle=-41;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="640" y="40" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-18" value="class 字节码" style="swimlane;swimlaneFillColor=default;fontFamily=OPPO Sans;fontSize=18;dashed=1;" parent="ood3mE_8JMTzE4csxDGE-17" vertex="1">
+          <mxGeometry x="10" y="40" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-19" value="StudentDemo.class" style="shape=document;boundedLbl=1;fillColor=none;strokeColor=#33A64C;fontFamily=OPPO Sans;fontSize=16;shadow=1;dashed=0;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=0;" parent="ood3mE_8JMTzE4csxDGE-18" vertex="1">
+          <mxGeometry x="10" y="50" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-20" value="Student.class" style="shape=document;boundedLbl=1;fillColor=none;strokeColor=#33A64C;fontFamily=OPPO Sans;fontSize=16;shadow=1;dashed=0;strokeWidth=1;align=center;verticalAlign=middle;spacingLeft=0;spacing=5;fontColor=#33A64C;fontStyle=0;" parent="ood3mE_8JMTzE4csxDGE-18" vertex="1">
+          <mxGeometry x="10" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ood3mE_8JMTzE4csxDGE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=12;entryPerimeter=0;" parent="1" source="ood3mE_8JMTzE4csxDGE-3" target="ood3mE_8JMTzE4csxDGE-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="220" />
+              <mxPoint x="270" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

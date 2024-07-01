@@ -1,0 +1,59 @@
+@media (min-width: 1440px) {
+  /* 侧边栏宽度 */
+  .VPSidebar {
+    padding-left: 2rem !important;
+    width: var(--vp-sidebar-width) !important;
+  }
+  /* navbar-title 宽度 */
+  .VPNavBar.has-sidebar .title {
+    padding-left: 1rem !important;
+    width: var(--vp-sidebar-width) !important;
+  }
+  /* navbar-content 宽度 */
+  .VPNavBar.has-sidebar .content {
+    padding-right: 2rem !important;
+    padding-left: var(--vp-sidebar-width) !important;
+  }
+  /* content 宽度 */
+  .VPContent.has-sidebar {
+    padding-right: 0 !important;
+    padding-left: var(--vp-sidebar-width) !important;
+  }
+}
+
+@media (min-width: 960px) {
+  /* navbar divider */
+  .VPNavBar > .divider {
+    display: none !important;
+  }
+  .VPNavBar.has-sidebar .title {
+    border-bottom: none;
+  }
+  /* sidebar 高度 */
+  .VPSidebar {
+    top: var(--vp-nav-height) !important;
+    padding-top: unset !important;
+  }
+  /* aside */
+  .VPDoc.has-sidebar.has-aside .aside {
+    justify-content: flex-end;
+  }
+  /* no sidebar & no aside */
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: unset !important;
+  }
+}
+
+/* main content */
+.VPDoc.has-aside .content-container {
+  max-width: unset !important;
+}
+
+/* aside outline-marker */
+.outline-marker {
+  width: 4px;
+}
+.outline-link:hover,
+.outline-link.active {
+  color: var(--vp-c-brand-1) !important;
+}

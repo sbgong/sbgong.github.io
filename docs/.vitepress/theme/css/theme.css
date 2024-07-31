@@ -1,0 +1,26 @@
+.vp-doc a {
+  text-decoration: none;
+}
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+.vp-doc :not(pre) > code {
+  user-select: all;
+}
+
+.vp-doc :not(pre) > kbd {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 4px;
+  padding: 0 6px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg-alt);
+}
+
+/* 表格样式 */
+.vp-doc table p,
+.vp-doc ul,
+.vp-doc ol {
+  margin: 0.5rem 0;
+}

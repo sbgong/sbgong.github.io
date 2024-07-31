@@ -1,0 +1,15 @@
+:root {
+  --vp-c-indigo-1: #4520e6;
+  --vp-c-indigo-2: #5356ff;
+  --vp-c-indigo-3: #1c3cf1;
+}
+
+.dark {
+  --vp-c-indigo-1: #8871ef;
+  --vp-c-indigo-2: #9580f3;
+  --vp-c-indigo-3: #7256f3;
+}
+
+.VPSidebar {
+  background-color: var(--vp-c-bg) !important;
+}

@@ -27,7 +27,11 @@ export default {
     md.use(MarkdownMark);
     md.use(MarkdownSup);
     md.use(MarkdownSub);
-    md.use(MarkdownTaskLists);
+    md.use(MarkdownTaskLists, {
+      enabled: true,
+      label: true,
+      labelAfter: true,
+    });
     md.use(tabsMarkdownPlugin);
   },
   math: true,

@@ -1,5 +1,5 @@
 ---
-title: Figma 快捷键
+title: Figma
 date: 2024-07-07 14:20:49
 order: 7
 ---

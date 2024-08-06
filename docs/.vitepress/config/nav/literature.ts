@@ -11,5 +11,6 @@ export default {
     { text: "儒家", link: "/literature/confucianism/" },
     { text: "佛家", link: "/literature/buddhism/" },
     { text: "神话", link: "/literature/myth/" },
+    { text: "阅读", link: "/literature/reading/" },
   ],
 };

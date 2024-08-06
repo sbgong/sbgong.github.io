@@ -1,5 +1,5 @@
 ---
-title: Inkscape 快捷键
+title: Inkscape
 date: 2024-07-20 11:09:26
 order: 5
 ---

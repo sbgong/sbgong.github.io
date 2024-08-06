@@ -61,13 +61,14 @@ order: 1
 
 ## 学习类
 
-| 软件         | 网址                                     |
-| ------------ | ---------------------------------------- |
-| `RIME` | https://rime.im/ |
-| `calibre`    | https://calibre-ebook.com/               |
-| `goldendict` | https://github.com/goldendict/goldendict |
-| `anki` | https://apps.ankiweb.net/ |
-| `作家助手` | https://write.qq.com/?siteid=1 |
+| 软件         | 网址                                                  |
+| ------------ | ----------------------------------------------------- |
+| `RIME`       | https://rime.im/                                      |
+| `calibre`    | https://calibre-ebook.com/                            |
+| `goldendict` | https://github.com/goldendict/goldendict              |
+| `anki`       | https://apps.ankiweb.net/                             |
+| `作家助手`   | https://write.qq.com/?siteid=1                        |
+| `scrivener`  | https://www.literatureandlatte.com/scrivener/overview |
 
 ## 编程类
 
